@@ -1,0 +1,9 @@
+portfolio_system/
+├── data/                  # Will contain your SQLite database
+├── notebooks/             # For Jupyter notebooks
+├── portfolio/             # Your main Python package
+│   ├── __init__.py        # Makes the folder a package
+│   ├── database.py        # Database functions go here
+│   ├── analysis.py        # Performance calculations
+│   └── market_data.py     # Data acquisition functions  
+└── scripts/               # Utility scripts
